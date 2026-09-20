@@ -120,8 +120,7 @@ select:focus{
 
     display:grid;
 
-    grid-template-columns:1fr;
-
+    grid-template-columns:1fr; /* Ajustado para 1 coluna inteira já que as outras somem */
     gap:10px;
 
     margin-top:8px;
@@ -147,6 +146,12 @@ input[type=radio]{
     transform:scale(.95);
 
 }
+
+/* Esconde as bandeiras não desejadas sem quebrar a lógica estrutural */
+.ocultar-cartao {
+    display: none !important;
+}
+
 /* Regra aplicada apenas para telas de celulares */
 @media (max-width: 480px) {
     body {
