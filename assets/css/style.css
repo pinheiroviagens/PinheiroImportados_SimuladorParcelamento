@@ -117,10 +117,15 @@ select:focus{
 }
 
 .cartoes-grid{
+
     display:grid;
-    grid-template-columns: 1fr; /* Alterado de '1fr 1fr' para '1fr' */
+
+    grid-template-columns:1fr;
+
     gap:10px;
+
     margin-top:8px;
+
 }
 
 .radio{
