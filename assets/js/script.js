@@ -50,9 +50,9 @@ function atualizarParcelas() {
     selectParcelamento.innerHTML = "";
     const tabela = tabelas[cartaoSelecionado];
 
-    for (let i = 1; i <= 12; i++) {
+    for (let i = 1; i <= 18; i++) {
         const option = document.createElement("option");
-        
+    
         // 3. Aplica a taxa original da tabela de cartões (ex: 0.0348)
         let taxaEfetiva = tabela[i]; 
 
